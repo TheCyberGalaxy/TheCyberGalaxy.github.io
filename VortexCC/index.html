@@ -2,10 +2,13 @@
 <html>
     <head>
         <h1>Test</h1>
-        Username: <input type="text" id="username" name="username" placeholder="Enter Username">
-        <button onClick="alertButton(txt1)">Submit</button>
+        Username: <input type="text" id="username" name="username" placeholder="Enter a Username" minlength="3">
+        E-Mail: <input type="text" id="email" name="email" placeholder="Enter a E-Mail" minlength="3">
+        <button onClick="alertButton(User)">Submit</button>
+
     </head>
     <script src="app.js">
-        const txt1 = document.getElementById(username)
+        const User = document.getElementById(username)
+        const EMail = document.getElementById(email)
     </script>
 </html>
