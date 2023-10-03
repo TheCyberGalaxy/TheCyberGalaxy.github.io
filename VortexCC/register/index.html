@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link rel="stylesheet" href="app.css">
+        <link rel="stylesheet" href="reg.css">
         <title>Vortex Register Form</title>
     </head>
     <body>
@@ -9,7 +9,12 @@
             <div class="form-box">
                 <div class="form-value">
                     <form action="">
-                        <h2>Login</h2>
+                        <h2>Register</h2>
+                        <div class="inputbox">
+                            <ion-icon name="person-outline"></ion-icon>
+                            <input type="user" required>
+                            <label for="">Username</label>
+                        </div>
                         <div class="inputbox">
                             <ion-icon name="mail-outline"></ion-icon>
                             <input type="email" required>
@@ -20,13 +25,14 @@
                             <input type="password" required>
                             <label for="">Password</label>
                         </div>
-                        <div class="forget">
-                            <label for=""><input type="checkbox">Remember Me <a href="#">Forgot Password</a></label>
-                            
+                        <div class="inputbox">
+                            <ion-icon name="lock-closed-outline"></ion-icon>
+                            <input type="password" required>
+                            <label for="">Confirm Password</label>
                         </div>
-                        <button>Log In</button>
-                        <div class="register">
-                            <p>Don't have a account <a href="register">Register</a></p>
+                        <button>Create Account</button>
+                        <div class="login">
+                            <p>Already have an account? <a href="https://thecybergalaxy.github.io/VortexCC/">Log In</a></p>
                         </div>
                     </form>
                 </div>
