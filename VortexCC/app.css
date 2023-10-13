@@ -8,14 +8,14 @@ nav
 {
   position: left;
   background: rgba(49,49,49,1);
-  margin-left: 5px 0px 5px
+  margin-right: 5px 0px 5px
   top: 20px;
   right: 30px;
 }
 .right-top{
   position: right;
   background: rgba(49,49,49,1);
-  margin-right: 5px 0px 5px;
+  margin-right: 10px 0px 5px;
   top: 20px;
   right: 30px
 }
