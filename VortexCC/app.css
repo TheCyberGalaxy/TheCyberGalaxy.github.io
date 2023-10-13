@@ -7,6 +7,8 @@ nav
   position: left;
   background: rgba(49,49,49,1);
   margin-left: 5px 0px 5px
+  top: 20px;
+  right: 10px;
 }
 .left-top label a
 {
