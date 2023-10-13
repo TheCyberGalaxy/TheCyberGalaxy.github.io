@@ -5,10 +5,10 @@ I'm just testing my skills on website making and also learning it
 - register page (VortexCC/register)
 - reset page (VortexCC/reset)
 
-#Currently working on
+# Currently working on
 - Main Page (VortexCC/)
 
-#TODO List
+# TODO List
 - Functions for login/register/reset form
 - Better Design for Main Page
 - More ideas on the way
