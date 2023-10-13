@@ -15,6 +15,6 @@ h2
 }
 body{
   background: url("background1.jpg")no-repeat;
-  background-align: center;
+  background-position: center;
   background-size: cover;
 }
