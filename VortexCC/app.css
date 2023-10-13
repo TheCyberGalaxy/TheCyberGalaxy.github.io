@@ -13,3 +13,8 @@ h2
   font-family: sans-serif;
   font-size: 1.5em;
 }
+body{
+  background: url("background1.jpg")no-repeat;
+  background-align: center;
+  background-size: cover;
+}
