@@ -7,7 +7,14 @@ nav
   position: left;
   background: rgba(49,49,49,1);
   margin-left: 5px 0px 5px
+}
+.left-top h2
+{
   text-decoration: none;
+}
+.left-top h2 a:hover
+{
+  text-decoration: underline;
 }
 h2
 {
