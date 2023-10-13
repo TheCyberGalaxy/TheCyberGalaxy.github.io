@@ -1,6 +1,8 @@
 nav
 {
   background-color: rgba(255,255,255,0.5);
+  margin: 0;
+  paddin: 0;
 }
 .left-top
 {
@@ -9,6 +11,13 @@ nav
   margin-left: 5px 0px 5px
   top: 20px;
   right: 30px;
+}
+.right-top{
+  position: right;
+  background: rgba(49,49,49,1);
+  margin-right: 5px 0px 5px;
+  top: 20px;
+  right: 30px
 }
 .right-top label a
 {
